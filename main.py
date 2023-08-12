@@ -27,8 +27,8 @@ comp_label.grid(row = 2, column = 4)
 #scoring 
 playerScore = Label(root, text = 0, font=("Helvetica", 24, "bold"), fg = "white", bg="#000080")
 computerScore = Label(root, text =0, font=("Helvetica", 24, "bold"), fg = "white", bg="#000080")
-playerScore.grid(row = 2, column = 3)
-computerScore.grid(row = 2, column = 1)
+playerScore.grid(row = 2, column = 1)
+computerScore.grid(row = 2, column = 3)
 
 #indicator (NAMES)
 comp_indicator = Label(root, font=("Helvetica", 18), text = "COMPUTER", fg = "white", bg="#000080").grid(row = 1, column = 3)
